@@ -1,0 +1,34 @@
+Number of total names in ns0: 13,179,334
+Number of non-redirects: 10,609,764
+
+Data dump
+	Dump date
+		03-May-2017
+	All
+		https://dumps.wikimedia.org/enwiki/latest/
+	Redirects
+		https://dumps.wikimedia.org/enwiki/latest/enwiki-latest-redirect.sql.gz
+		(fromId,namespace,toTitle,'','')
+	Page titles
+		https://dumps.wikimedia.org/enwiki/latest/enwiki-latest-all-titles-in-ns0.gz
+		(namespace, t
+		size: 74194873
+	Abstracts
+		https://dumps.wikimedia.org/enwiki/latest/enwiki-latest-abstract.xml
+		*DOESN'T HAVE LINK INFO*
+		
+Code to get first link
+	http://stackoverflow.com/questions/18916616/get-first-link-of-wikipedia-article-using-wikipedia-api
+
+
+Get first few sentences of intro
+	https://en.wikipedia.org/w/api.php?action=query&prop=extracts&exintro&exsentences=3&titles=Albert%20Einstein&format=jsonfm
+
+
+*** QUERY STRING ***
+	https://en.wikipedia.org/w/api.php?action=parse&section=0&redirects=1&prop=text&disablelimitreport=1&disableeditsection=1&disabletoc=1&page=Einstein
+
+
+About Namespaces
+	https://www.mediawiki.org/wiki/Manual:Namespace
+
